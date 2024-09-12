@@ -29,7 +29,7 @@ h1 {
 }
 
 input {
-    width: 90%;
+    width: 100%;
     border: none;
     border-radius: .2rem;
     padding: 8px;
@@ -54,8 +54,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #8372a5;
+}
+
 .editButton, .deleteButton{
     background-color: #38245e;
+}
+
+.editButton:hover, .deleteButton:hover {
+    background-color: #483174;
 }
 
 ul {
