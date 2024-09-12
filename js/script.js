@@ -4,6 +4,7 @@ const taskInput = document.getElementById("taskInput");
 function addTask() {
     const taskText = taskInput.value.trim();
     if (taskText !== ""){
+
         const li = document.createElement("li");
         li.innerHTML = `
             <span>${taskText}</span>
